@@ -1,0 +1,566 @@
+body{
+    background-color: #E0C5C4; /* Soft powder pink background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+}
+#button{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color:brown; 
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#strip1{
+    position: relative;
+    height: 200px;
+    width: 30px;
+    background-color: beige;
+    left: -118px;
+    
+}
+#left{
+    width: 50px;
+    height: 60px;
+    background-color: beige;
+    border-radius: 75px  0 75px  0;
+    position: relative;
+    right: 130px;
+    bottom: 120px;
+    transform: rotate(20deg);
+}
+#right{
+    width: 50px;
+    height: 60px;
+    background-color: beige;
+    border-radius: 0 75px  0 75px  ;
+    position: relative;
+    right: 240px;
+    bottom: 120px;
+    transform: rotate(-20deg);
+}
+button:hover{
+    background-color: #E0C5C4;
+}
+.cake {
+    width: 300px;
+    height: 250px;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.layer1,.layer2,.layer3{
+    height: 60px;
+    position: absolute;
+}
+.layer1 {
+    width: 80%;
+    background-color: #ff9966;
+    bottom: 0;
+    left: 10%;
+}
+.layer2 {
+    width: 60%;
+    background-color: #ff6633; 
+    bottom: 60px;
+    left: 20%;
+}
+
+.layer3 {
+    width: 40%;
+    background-color: #ff4444; 
+    bottom: 120px;
+    left: 30%;
+}
+.choc1a{
+    background-color: rgb(97, 63, 63);
+    width: 10%; 
+    height: 30px;
+    position: absolute;
+    bottom: 30px;
+    z-index: 3;
+    border-radius:  0 0 75px 0 ;
+    left: 10%;
+    
+}
+.choc1b{
+    background-color: rgb(97, 63, 63);
+    width: 15%; 
+    height: 30px;
+    position: absolute;
+    bottom: 30px;
+    z-index: 3;
+    border-radius:  0 0 75px 75px ;
+    left: 20%;
+    
+}
+.choc1c{
+    background-color: rgb(97, 63, 63);
+    width: 15%; 
+    height: 35px;
+    position: absolute;
+    bottom: 25px;
+    z-index: 3;
+    border-radius:  0 0 75px 75px ;
+    left: 35%;
+}
+.choc1d{
+    background-color: rgb(97, 63, 63);
+    width: 15%; 
+    height: 35px;
+    position: absolute;
+    bottom: 25px;
+    z-index: 3;
+    border-radius:  0 0 75px 75px ;
+    left: 50%
+}
+.choc1e{
+    background-color: rgb(97, 63, 63);
+    width: 15%; 
+    height: 30px;
+    position: absolute;
+    bottom: 30px;
+    z-index: 3;
+    border-radius:  0 0 75px 75px ;
+    left: 65%;
+    
+}
+.choc1f{
+    background-color: rgb(97, 63, 63);
+    width: 10%; 
+    height: 30px;
+    position: absolute;
+    bottom: 30px;
+    z-index: 3;
+    border-radius:  0 0 0 75px ;
+    left: 80%;
+}
+.choc2a{
+    background-color: rgb(97, 63, 63);
+    width: 8%; 
+    height: 30px;
+    position: absolute;
+    bottom: 90px;
+    z-index: 3;
+    border-radius:  0 0 75px 0 ;
+    left: 20%;
+}
+.choc2b{
+    background-color: rgb(97, 63, 63);
+    width: 12%; 
+    height: 30px;
+    position: absolute;
+    bottom: 90px;
+    z-index: 3;
+    border-radius:  0 0 75px 75px ;
+    left: 27%
+}
+.choc2c{
+    background-color: rgb(97, 63, 63);
+    width: 11%; 
+    height: 35px;
+    position: absolute;
+    bottom: 85px;
+    z-index: 3;
+    border-radius:  0 0 75px 75px ;
+    left: 39%
+}
+.choc2d{
+    background-color: rgb(97, 63, 63);
+    width: 11%; 
+    height: 35px;
+    position: absolute;
+    bottom: 85px;
+    z-index: 3;
+    border-radius:  0 0 75px 75px ;
+    left: 50%
+}
+.choc2f{
+    background-color: rgb(97, 63, 63);
+    width: 12%; 
+    height: 30px;
+    position: absolute;
+    bottom: 90px;
+    z-index: 3;
+    border-radius:  0 0 75px 75px ;
+    left: 61%
+}
+.choc2e{
+    background-color: rgb(97, 63, 63);
+    width: 8%; 
+    height: 30px;
+    position: absolute;
+    bottom: 90px;
+    z-index: 3;
+    border-radius:  0 0 0 75px ;
+    left: 72%;
+}
+.choc3a{
+    background-color: rgb(97, 63, 63);
+    width: 6%; 
+    height: 25px;
+    position: absolute;
+    bottom: 155px;
+    z-index: 3;
+    border-radius:  0 0 75px 0 ;
+    left: 30%;
+}
+.choc3b{
+    background-color: rgb(97, 63, 63);
+    width: 9%; 
+    height: 25px;
+    position: absolute;
+    bottom: 155px;
+    z-index: 3;
+    border-radius:  0 0 75px 75px ;
+    left: 36%
+}
+.choc3c{
+    background-color: rgb(97, 63, 63);
+    width:10%; 
+    height: 30px;
+    position: absolute;
+    bottom: 150px;
+    z-index: 3;
+    border-radius:  0 0 75px 75px ;
+    left: 45%
+}
+.choc3d{
+    background-color: rgb(97, 63, 63);
+    width: 9%; 
+    height: 25px;
+    position: absolute;
+    bottom: 155px;
+    z-index: 3;
+    border-radius:  0 0 75px 75px ;
+    left: 55%
+}
+.choc3e{
+    background-color: rgb(97, 63, 63);
+    width: 6%; 
+    height: 25px;
+    position: absolute;
+    bottom: 155px;
+    z-index: 3;
+    border-radius:  0 0 0 75px ;
+    left: 64%;
+}
+
+.frosting1{
+    width: 79%;
+    color: rgb(193, 169, 169);
+    position: absolute;
+    bottom: 52px;
+    border-style:dashed;
+    left: 10%;
+    z-index:5;
+}
+.frosting2{
+    width: 58%;
+    color: rgb(193, 169, 169);
+    position: absolute;
+    bottom: 112px;
+    border-style:dashed;
+    left: 20%;
+    z-index:5;
+}
+.frosting3{
+    width: 38%;
+    color: rgb(193, 169, 169);
+    position: absolute;
+    bottom: 172px;
+    border-style:dashed;
+    left: 30%;
+    z-index:5;
+}
+.candle{
+    background-color: #ff4444;
+    width: 4%;
+    height: 41px;
+    position: absolute;
+    bottom: 170px;
+    left: 48%;
+    
+}
+.horizontal1{
+    background-color: #ff9966;
+    width: 11%;
+    height:14px;
+    position: absolute;
+    bottom: 29px;
+    left: 46%;
+    transform: rotate(-52deg);
+    z-index: index 3; 
+
+}
+.horizontal2{
+    background-color: #ff9966;
+    width: 11%;
+    height:15px;
+    position: absolute;
+    bottom: 22px;
+    left: 46%;
+    transform: rotate(-50deg);
+    z-index: index 3; 
+
+}
+.horizontal3{
+    background-color: #ff9966;
+    width: 11%;
+    height:15px;
+    position: absolute;
+    bottom: 15px;
+    left: 46%;
+    transform: rotate(-50deg);
+    z-index: index 3; 
+
+
+}
+.horizontal4{
+    background-color: #ff9966;
+    width: 11%;
+    height:15px;
+    position: absolute;
+    bottom: 8px;
+    left: 46%;
+    transform: rotate(-50deg);
+    z-index: index 3; 
+
+}
+.horizontal5{
+    background-color: #ff9966;
+    width: 11%;
+    height:15px;
+    position: absolute;
+    bottom: 1px;
+    left: 46%;
+    transform: rotate(-50deg);
+    z-index: index 3; 
+
+}
+.birthday{
+    color: purple;
+    position:relative ;
+    bottom: 20%;
+    font-size: 25px;
+    font-family:cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.flame {
+    position: absolute;
+    border-radius: 80% 15% 55% 50% / 55% 15% 80% 50%;
+    width:20px; 
+    height: 20px;
+    bottom: 41px;
+    transform: rotate(-45deg);
+    z-index:4;
+    background-color: rgba(252,191,73,.8);
+    transition: .5s;
+    animation: flame .5s infinite;
+    left: -4px;
+}
+    @keyframes flame {
+    0%, 25%, 100% {transform: scaleY(1) rotate(-45deg);}
+    50%, 75% {transform: scaleY(1.1) rotate(-45deg);}
+}
+.baloon1{
+    border-radius: 75px 75px 75px 75px;
+    background-color:brown;
+    height: 120px;
+    width:100px;
+    position: absolute;
+    bottom: 500px;
+    left: 80px;
+    transform: translateX(-50%); 
+    animation: baloon1 3s ease-in-out ;
+}
+.top1{
+    border-radius: 0 0 50px 50px;
+    background-color: azure;
+    height: 10px;
+    width: 25px;
+    position: absolute;
+    left: 38px;
+    bottom: -10px;
+}
+.tail1{
+    background-color: black;
+    position: absolute;
+    height: 200px;
+    width: 3px;
+    bottom: -200px;
+    left: 50px;
+}
+.baloon2{
+    border-radius: 75px 75px 75px 75px;
+    background-color: palevioletred;
+    height: 120px;
+    width:100px;
+    position: absolute;
+    bottom: 350px;
+    left:250px;
+    transform: translateX(-50%); 
+    animation: baloon1 3s ease-in-out ;
+
+}
+.top2{
+    border-radius: 0 0 50px 50px;
+    background-color: azure;
+    height: 10px;
+    width: 25px;
+    position: absolute;
+    left: 38px;
+    bottom: -10px;
+}
+.tail2{
+    background-color: black;
+    position: absolute;
+    height: 200px;
+    width: 3px;
+    bottom: -200px;
+    left: 50px;
+}
+.baloon3{
+    border-radius: 75px 75px 75px 75px;
+    background-color:cadetblue;
+    height: 120px;
+    width:100px;
+    position: absolute;
+    bottom: 500px;
+    left: 500px;
+    
+    transform: translateX(-50%); 
+    animation: baloon1 3s ease-in-out ; 
+
+}
+.top3{
+    border-radius: 0 0 50px 50px;
+    background-color: azure;
+    height: 10px;
+    width: 25px;
+    position: absolute;
+    left: 38px;
+    bottom: -10px;
+}
+.tail3{
+    background-color: black;
+    position: absolute;
+    height: 200px;
+    width: 3px;
+    bottom: -200px;
+    left: 50px;
+}
+.baloon4{
+    border-radius: 75px 75px 75px 75px;
+    background-color:blueviolet;
+    height: 120px;
+    width:100px;
+    position: absolute;
+    bottom: 500px;
+    left: 1000px;
+    
+    transform: translateX(-50%); 
+    animation: baloon1 3s ease-in-out ;
+
+}
+.top4{
+    border-radius: 0 0 50px 50px;
+    background-color: azure;
+    height: 10px;
+    width: 25px;
+    position: absolute;
+    left: 38px;
+    bottom: -10px;
+}
+.tail4{
+    background-color: black;
+    position: absolute;
+    height: 200px;
+    width: 3px;
+    bottom: -200px;
+    left: 50px;
+}
+.baloon5{
+    border-radius: 75px 75px 75px 75px;
+    background-color:darksalmon;
+    height: 120px;
+    width:100px;
+    position: absolute;
+    bottom: 350px;
+    left: 1200px;
+    
+    transform: translateX(-50%); 
+    animation: baloon1 3s ease-in-out ; 
+
+}
+.top5{
+    border-radius: 0 0 50px 50px;
+    background-color: azure;
+    height: 10px;
+    width: 25px;
+    position: absolute;
+    left: 38px;
+    bottom: -10px;
+}
+.tail5{
+    background-color: black;
+    position: absolute;
+    height: 200px;
+    width: 3px;
+    bottom: -200px;
+    left: 50px;
+}
+.baloon6{
+    border-radius: 75px 75px 75px 75px;
+    background-color:rgb(183, 63, 109);
+    height: 120px;
+    width:100px;
+    position: absolute;
+    bottom: 500px;
+    left: 1400px;
+    transform: translateX(-50%); 
+    animation: baloon1 3s ease-in-out alternate ; 
+    
+    
+
+}
+.top6{
+    border-radius: 0 0 50px 50px;
+    background-color: azure;
+    height: 10px;
+    width: 25px;
+    position: absolute;
+    left: 38px;
+    bottom: -10px;
+}
+.tail6{
+    background-color: black;
+    position: absolute;
+    height: 200px;
+    width: 3px;
+    bottom: -200px;
+    left: 50px;
+}
+
+
+
+@keyframes baloon1  {
+    0% {
+        bottom: 10%;
+    }
+    100% {
+        bottom: 80%;
+    }
+}
